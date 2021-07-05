@@ -1,0 +1,27 @@
+{
+  "name": "sudoku-solver",
+  "version": "1.0.0",
+  "description": "A Simple Web-App to solve sudoku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhukeshk3/sudoku-solver.git"
+  },
+  "author": "Madhukesh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhukeshk3/sudoku-solver/issues"
+  },
+  "homepage": "https://github.com/madhukeshk3/sudoku-solver#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
+}

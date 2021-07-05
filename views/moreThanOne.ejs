@@ -1,0 +1,35 @@
+<div class="container">
+  <h1 class="more">There are more than one solution of your sudoku. <b>Here are two...</b></h1>
+</div>
+
+<div class="container-sol">
+  <h2 class="heading">First Solution</h2>
+  <% for(var i = 0;i<9;i++) { %>
+    <div class="row">
+      <% for(var j = 0;j<9;j++ ) { %>
+      <input type="number" value=<%=mat[i][j]%>
+          class="<%= (j==2 || j==5) ? done[i][j]==0 ? 'break3 empty' : 'break3' : done[i][j]==0 ? 'empty' : 'filled' %>"
+        > 
+      <% } %> 
+    </div>
+    <% if (i==2 || i==5) { %>
+     <br>
+    <% } %>
+  <% } %>
+      <br>
+      <hr>
+      <br>
+  <h2 class="heading">Second Solution</h2>
+  <% for(var i = 0;i<9;i++) { %>
+    <div class="row">
+      <% for(var j = 0;j<9;j++ ) { %>
+      <input type="number" value=<%=mat2[i][j]%>
+          class="<%= (j==2 || j==5) ? done[i][j]==0 ? 'break3 empty' : 'break3' : done[i][j]==0 ? 'empty' : 'filled' %>"
+        > 
+      <% } %> 
+    </div>
+    <% if (i==2 || i==5) { %>
+      <br>
+    <% } %>
+  <% } %>
+</div>
