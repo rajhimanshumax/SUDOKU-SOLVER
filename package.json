@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madhukeshk3/sudoku-solver.git"
+    "url": "git+https://him-sudoku-solver.herokuapp.com/"
   },
-  "author": "Madhukesh Kumar",
+  "author": "Himanshu Kumar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/madhukeshk3/sudoku-solver/issues"
+    "url": "https://github.com/rajhimanshumax/SUDOKU-SOLVER/issues"
   },
-  "homepage": "https://github.com/madhukeshk3/sudoku-solver#readme",
+  "homepage": "https://him-sudoku-solver.herokuapp.com/",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
